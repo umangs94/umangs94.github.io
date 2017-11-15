@@ -213,7 +213,9 @@ article:last-child {
     margin-bottom: 0;
 }
 
-header {}
+header:not(:first-child) {
+    padding-top: 100px
+}
 
 header > p {
     color: #aaa;
