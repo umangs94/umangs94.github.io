@@ -15,6 +15,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/skel.min.js"></script>
     <script src="js/init.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <noscript>
         <link rel="stylesheet" href="css/skel.css" />
         <link rel="stylesheet" href="css/style.css" />
@@ -31,25 +32,28 @@
     <div id="wrapper">
         <!-- Nav -->
         <nav id="nav">
-            <a href="#me" class="icon fa-home active">
+            <a href="#me" class="fas fa-home active">
                 <span>Home</span>
             </a>
-            <a href="#work" id="link_work" class="icon fa-folder">
-                <span>Work</span>
+            <a href="#about" class="fas fa-home">
+                <span>About me</span>
             </a>
-            <a href="#app" id="link_app" class="icon fa-mobile">
-                <span>iOS App</span>
-            </a>
-            <a href="#projects" class="icon fa-desktop">
+            <a href="#projects" class="far fa-file-code">
                 <span>Projects</span>
             </a>
-            <a href="#contact" class="icon fa-envelope">
+            <a href="#work" id="link_work" class="fas fa-briefcase">
+                <span>Work</span>
+            </a>
+            <a href="#app" id="link_app" class="fas fa-mobile">
+                <span>iOS App</span>
+            </a>
+            <a href="#contact" class="far fa-envelope">
                 <span>Contact</span>
             </a>
-            <a href="https://drive.google.com/file/d/1i9tXIggRqBl4XAasoZo4lZQ2_I_CB3F6/view?usp=sharing" target="_blank" class="icon fa-file-text-o">
+            <a href="https://drive.google.com/file/d/1i9tXIggRqBl4XAasoZo4lZQ2_I_CB3F6/view?usp=sharing" target="_blank" class="far fa-file-alt">
                 <span>Resume</span>
             </a>
-            <a href="https://www.linkedin.com/in/umangs94" target="_blank" class="icon fa-linkedin">
+            <a href="https://www.linkedin.com/in/umangs94" target="_blank" class="fab fa-linkedin">
                 <span>LinkedIn</span>
             </a>
         </nav>
@@ -89,6 +93,134 @@
                     <img src="images/me.jpg" alt="me!" />
                 </a>
             </article>
+
+            <!-- About me -->
+            <article id="about" class="panel">
+                    <header>
+                        <h2>Online Computer Library Center (OCLC)</h2>
+                        <h3 style="text-transform:uppercase">Software Developer</h3>
+                        <p>July 2016 - 2018, Columbus, OH</p>
+                    </header>
+                    Improved and innovated on several Java projects used internally and externally for purposes ranging from data retrieval,
+                    transformation, and organization to security
+                    <br />Supported a multi-million dollar international contract by writing utilities that enabled our team
+                    to internationalize a webapp in 20+ languages
+                    <br />Optimized database handling and functionality for compliance with privacy requirements while updating
+                    legacy projects to modern technologies such as Spring and SQL
+                    <br />Achieved our corporate strategy goals by enhancing OAuth authentication services used by OCLC’s enterprise
+                    business partners to offer better support of mobile application authentication
+                    <br />Worked with the Operations team to deploy our webapps successfully in the Production environment
+
+                    <header>
+                        <h2>Qualcomm Life</h2>
+                        <h3 style="text-transform:uppercase">Interim Engineering Intern</h3>
+                        <p>May - July 2015, San Diego, CA</p>
+                    </header>
+                    Improved the webapp that I worked on in 2014 based on feedback from the Operations team
+                    <br />Created new features to significantly simplify and automate tasks for other team members
+                    <br />Used C# to internalize SQL scripts into an ASP.NET application while working together using Visual
+                    Studio
+
+                    <header>
+                        <h2>Qualcomm Life</h2>
+                        <h3 style="text-transform:uppercase">Interim Technology Intern</h3>
+                        <p>May - August 2014, San Diego, CA</p>
+                    </header>
+                    Overhauled an internal web-app that is used to manage a consumer-facing website
+                    <br /> Resolved and implemented requested user stories to increase operational productivity
+                    <br /> Made extensive use of ASP.NET, SQL, HTML5, and JavaScript while collaborating with other team members
+                    using Team Foundation Server in Visual Studio
+
+                    <header>
+                        <h2>The Ohio State University</h2>
+                        <h3 style="text-transform:uppercase">CSE Help Desk Operator</h3>
+                        <p>February 2014 - May 2016, Columbus, OH</p>
+                    </header>
+                    Reply to any queries sent to help@cse.ohio-state.edu diligently and in a timely manner
+                    <br /> Help students, faculty and professors with their queries and account issues
+                    <br /> Print posters for graduate students
+                    <br /> Ensure that all the CSE printers (~20) are working perfectly with no paper and ink issues
+
+                    <header>
+                        <h2>ICICI Prudential AMC Ltd.</h2>
+                        <h3 style="text-transform:uppercase">IT Intern</h3>
+                        <p>Summer 2010, Mumbai, India</p>
+                    </header>
+                    Gained experience programming in work environment
+                    <br /> Primarily programmed in ASP.NET and C#
+                    <br /> Created websites for inputting and recalling user details
+                    <br /> Worked in Microsoft Access to create databases to store user details
+                </article>
+
+            <!-- Projects -->
+            <article id="projects" class="panel">
+                    <header>
+                        <h2>Working in a team with Prof. Alexandre Bayen on a Capstone Project</h2>
+                        <h4><i>Applying Deep Multi-Agent Reinforcement Learning on Autonomous Traffic</i></h4>
+                        <p>August 2018 - present</p>
+                    </header>
+                    Using an open-source traffic control framework called Flow that works with SUMO (Simulation of Urban Mobility) and RLlib (Reinforcement Learning Library)
+                    Optimizing the behavior of autonomous vehicles to improve a city-scale scenario
+
+                    <header>
+                        <img class="image centered web" style="max-width:200px" src="images/drinks_tracker.png" alt="Drinks Tracker">
+                        <h2>Drinks Tracker</h2>
+                        <h4>iOS App</h4>
+                        <p>May 2017 - 2018</p>
+                    </header>
+                    <header>
+                        <h2>Machine Learning by Stanford University - Coursera</h2>
+                        <h4>Taught by Andrew Ng, Co-founder, Coursera and Adjunct Professor, Stanford University</h4>
+                        <p>Spring 2017</p>
+                    </header>
+                    <header>
+                        <h2>Data mined a large collection of Reuters articles in Python</h2>
+                        <p>Spring 2016, The Ohio State University</p>
+                    </header>
+                    Learned and performed textual analysis to summarize the articles
+                    Used Beautiful Soup 4 and scikit-learn to implement several clustering and classification algorithms such as DBSCAN, Hierarchical Clustering, Naïve-Bayesian, and K-Nearest Neighbors
+                    Calculated Jaccard Similarity scores and Mean Squared Error to accurately create association rules
+
+                    <header>
+                        <h2>Voice Analytics Capstone project</h2>
+                        <h4>for PureCloud by Interactive Intelligence</h4>
+                        <p>Spring 2016, The Ohio State University</p>
+                    </header>
+                    Performed tokenization using IBM BlueMix after using Google Cloud Speech for voice recognition
+                    Analyzed the speech input to automatically create meetings in Google Calendar
+                    Worked with the IBM BlueMix, Google Cloud Speech, and Google Calendar APIs along with AWS
+
+                    <header>
+                        <h2>Several Android apps</h2>
+                        <h4>Worked with Twitter, Google Calendar, and Google SafeSearch APIs</h4>
+                        <p>2015 - 2016, The Ohio State University</p>
+                    </header>
+                    <header>
+                        <img class="image centered web" src="images/qualcomm_hackathon.jpg" alt="'Best Lifesaving Hack’'">
+                        <h2>Won ‘Best Lifesaving Hack’ at Qualcomm’s intern hackathon</h2>
+                        <h4>Created an Android app to visualize sound to assist the hearing impaired using Vuforia for Augmented
+                            Reality
+                        </h4>
+                        <p>Summer 2015, Qualcomm</p>
+                    </header>
+                    <header>
+                        <img class="image centered web" src="images/isaosu.jpg" alt="isaosu.com">
+                        <h2>Indian Students Association</h2>
+                        <h3 style="text-transform:uppercase">Chief of Staff and Webmaster</h3>
+                        <p>2013 - 2016, The Ohio State University</p>
+                    </header>
+                    <header>
+                        <img class="image centered web" src="images/uncakd.jpg" alt="uncakd.org">
+                        <h2>Aaj Ka Dhamaka</h2>
+                        <h3 style="text-transform:uppercase">Webmaster</h3>
+                        <p>Fall 2013, University of North Carolina</p>
+                    </header>
+                    <header>
+                        <h2>Advanced Energy Vehicle project</h2>
+                        <h4>Model Monorail</h4>
+                        <p>Spring 2013, The Ohio State University</p>
+                    </header>
+                </article>
 
             <!-- Work -->
             <article id="work" class="panel">
@@ -186,82 +318,15 @@
                 </a>
             </article>
 
-            <!-- Projects -->
-            <article id="projects" class="panel">
-                <header>
-                    <h2>Working in a team with Prof. Alexandre Bayen on a Capstone Project</h2>
-                    <h4>Applying Deep Multi-Agent Reinforcement Learning on Autonomous Traffic</h4>
-                    <p>August 2018 - present</p>
-                </header>
-                <header>
-                    <img class="image centered web" style="max-width:200px" src="images/drinks_tracker.png" alt="Drinks Tracker">
-                    <h2>Drinks Tracker</h2>
-                    <h4>iOS App</h4>
-                    <p>May 2017 - 2018</p>
-                </header>
-                <header>
-                    <h2>Machine Learning by Stanford University - Coursera</h2>
-                    <h4>Taught by Andrew Ng, Co-founder, Coursera and Adjunct Professor, Stanford University</h4>
-                    <p>Spring 2017</p>
-                </header>
-                <header>
-                    <h2>Data mined a large collection of Reuters articles in Python</h2>
-                    <h4>Learned and performed textual analysis to summarize the articles</h4>
-                    <h4>Used Beautiful Soup 4 and scikit-learn to implement several clustering and classification algorithms
-                        such as DBSCAN, Hierarchical Clustering, Naïve-Bayesian, and K-Nearest Neighbors</h4>
-                    <h4>Calculated Jaccard Similarity scores and Mean Squared Error to accurately create association rules</h4>
-                    <p>Spring 2016, The Ohio State University</p>
-                </header>
-                <header>
-                    <h2>Voice Analytics Capstone project</h2>
-                    <h4>for PureCloud by Interactive Intelligence</h4>
-                    <h4>Performed tokenization using IBM BlueMix after using Google Cloud Speech for voice recognition</h4>
-                    <h4>Analyzed the speech input to automatically create meetings in Google Calendar</h4>
-                    <h4>Worked with the IBM BlueMix, Google Cloud Speech, and Google Calendar APIs along with AWS</h4>
-                    <p>Spring 2016, The Ohio State University</p>
-                </header>
-                <header>
-                    <h2>Several Android apps</h2>
-                    <h4>Worked with Twitter, Google Calendar, and Google SafeSearch APIs</h4>
-                    <p>2015 - 2016, The Ohio State University</p>
-                </header>
-                <header>
-                    <img class="image centered web" src="images/qualcomm_hackathon.jpg" alt="'Best Lifesaving Hack’'">
-                    <h2>Won ‘Best Lifesaving Hack’ at Qualcomm’s intern hackathon</h2>
-                    <h4>Created an Android app to visualize sound to assist the hearing impaired using Vuforia for Augmented
-                        Reality
-                    </h4>
-                    <p>Summer 2015, Qualcomm</p>
-                </header>
-                <header>
-                    <img class="image centered web" src="images/isaosu.jpg" alt="isaosu.com">
-                    <h2>Indian Students Association</h2>
-                    <h3 style="text-transform:uppercase">Chief of Staff and Webmaster</h3>
-                    <p>2013 - 2016, The Ohio State University</p>
-                </header>
-                <header>
-                    <img class="image centered web" src="images/uncakd.jpg" alt="uncakd.org">
-                    <h2>Aaj Ka Dhamaka</h2>
-                    <h3 style="text-transform:uppercase">Webmaster</h3>
-                    <p>Fall 2013, University of North Carolina</p>
-                </header>
-                <header>
-                    <h2>Advanced Energy Vehicle project</h2>
-                    <h4>Model Monorail</h4>
-                    <p>Spring 2013, The Ohio State University</p>
-                </header>
-            </article>
-
             <!-- Contact -->
             <article id="contact" class="panel">
                 <a href="mailto:umang@berkeley.edu">
                     <header>
                         <h2>Contact Me</h2>
                     </header>
-                    <p>I am interested in internships for Summer 2019 before I graduate from University of California, Berkeley in December 2019.</p>
+                    <p>I am interested in Machine Learning internships for Summer 2019 before I graduate from University of California, Berkeley in December 2019.</p>
                 </a>
             </article>
-
         </div>
 
         <!-- Footer -->
