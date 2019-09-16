@@ -15,7 +15,8 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/skel.min.js"></script>
     <script src="js/init.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <noscript>
         <link rel="stylesheet" href="css/skel.css" />
         <link rel="stylesheet" href="css/style.css" />
@@ -47,14 +48,15 @@
             <a href="#app" id="link_app" class="fas fa-mobile">
                 <span>iOS App</span>
             </a>
-            <a href="https://drive.google.com/file/d/1i9tXIggRqBl4XAasoZo4lZQ2_I_CB3F6/view?usp=sharing" target="_blank" class="fas fa-file-alt">
+            <a href="https://drive.google.com/file/d/1i9tXIggRqBl4XAasoZo4lZQ2_I_CB3F6/view?usp=sharing" target="_blank"
+                class="fas fa-file-alt">
                 <span>Resume</span>
             </a>
             <a href="https://www.linkedin.com/in/umangs94" target="_blank" class="fab fa-linkedin">
                 <span>LinkedIn</span>
             </a>
             <a href="#contact" class="fas fa-envelope">
-                    <span>Contact</span>
+                <span>Contact</span>
             </a>
         </nav>
 
@@ -80,6 +82,8 @@
                             Data Science
                         </a>
                         <br /><br />
+                        <a style="cursor:pointer" onclick="$('#link_work').click()">Former Machine Learning Intern</a>
+                        <br />
                         <a style="cursor:pointer" onclick="$('#link_work').click()">Former Software Developer</a>
                         <br />
                         <a style="cursor:pointer" onclick="$('#link_app').click()">Former iOS App Developer</a>
@@ -100,123 +104,165 @@
                     <h2>About me</h2>
                 </header>
                 <p>
-                    I have loved collecting and analyzing all types of data (including fitness, nutrition, car mileage, and more) since
-                    I started using a Fitbit to track my steps and sleep a few years ago. Moving forward, my goal is to help people make
-                    sense of all their data by creating tools that can enable that. To pursue this goal further, I am studying Computer
-                    Science (with a specialization in Data Science) in the Master of Engineering program at University of California,
-                    Berkeley.
+                    I love collecting and analyzing how all my personal data (including fitness, nutrition, sleep,
+                    location history, and more) interact with one another. To that end, my personal goal is to improve
+                    everyone’s daily lives by combining all their data and helping them make sense of it. To pursue this
+                    goal further, I am studying Computer Science (with a specialization in Data Science) in the Master
+                    of Engineering program at UC Berkeley.
                 </p>
                 <p>
-                    The MEng program at UC Berkeley focuses extensively on technical leadership in the industry and so, I am taking courses about
-                    Optimization Models in Engineering and Introduction to Machine Learning. In addition to technical and business courses,
-                    I am working on an autonomous traffic Capstone team project with Prof. Alexandre Bayen titled Applying Deep Multi-Agent
-                    Reinforcement Learning on Mixed-Autonomy Traffic. Our ultimate goal is to optimize the behavior of autonomous vehicles
-                    to improve a city-scale scenario.
+                    Over Summer 2019, I interned at an early-stage startup as a Machine Learning Intern and worked on
+                    developing classification models using computer vision techniques in TensorFlow 2. Transfer learning
+                    was an important method and I used several models including Inception and ResNet. Along the way, I
+                    collected raw data and created a simple tool for annotating videos. I also created many synthetic
+                    images for training after learning to use Blender.
                 </p>
                 <p>
-                    In 2017, I published an iOS app called Drinks Tracker on the App Store based on an observation that I made a
-                    couple of years ago during my undergraduate years at The Ohio State University. In early 2018, I was working on
-                    integrating Machine Learning in my app (to automatically suggest drinks to users based on their preferences and
-                    drink history) when Apple removed this category of apps from the App Store.
+                    The MEng program focuses extensively on technical leadership in the industry and so, I am taking
+                    courses about Machine Learning, Deep RL, and ML Systems. In Fall 2019, I am researching traffic
+                    light control using Deep RL.
                 </p>
                 <p>
-                    My current fitness goal is to complete a 7.5 mile run in an hour. Currently, I am two minutes away from making
-                    it!
+                    In 2017, I published an iOS app called Drinks Tracker on the App Store based on an observation that
+                    I made a couple of years ago during my undergraduate years at The Ohio State University. In early
+                    2018, I was working on integrating drink suggestions using machine learning in my app (to
+                    automatically suggest drinks to users based on their preferences and drink history) when Apple
+                    removed this category of apps from the App Store.
                 </p>
                 <p>
-                    In my spare time, I enjoy watching movies and TV, especially science fiction classics such as Star Trek and
-                    Doctor Who. 🖖
+                    My current fitness goal is to complete a 7.5 mile run in an hour. Currently, I am two minutes away
+                    from making it!
                 </p>
                 <p>
-                    Before I graduate in December 2019, I want to work in the summer as a Data Scientist Intern, ideally in the Bay Area, to
-                    learn to make better use of all the data that we generate every single day.
+                    In my spare time, I enjoy watching movies and TV, especially science fiction classics such as Star
+                    Trek and Doctor Who. 🖖
+                </p>
+                <p>
+                    After I graduate in December 2019, I want to work as a Machine Learning Engineer, ideally in the Bay
+                    Area, to make better use of all the data that we generate every day.
                 </p>
             </article>
 
             <!-- Projects -->
             <article id="projects" class="panel">
-                    <header>
-                        <h2>Working in a team with Prof. Alexandre Bayen on a Capstone Project</h2>
-                        <h4><i>Applying Deep Multi-Agent Reinforcement Learning on Mixed Autonomy Traffic</i></h4>
-                        <p>August 2018 - present</p>
-                    </header>
-                    Using an open-source traffic control framework called Flow that works with SUMO (Simulation of Urban Mobility) and RLlib (Reinforcement Learning Library)
-                    Optimizing the behavior of autonomous vehicles to improve a city-scale scenario
+                <header>
+                    <h2>Researching with Prof. Alexandre Bayen</h2>
+                    <h4><i>Traffic Light Control using Deep RL</i></h4>
+                    <p>August 2019 - present</p>
+                </header>
+                <header>
+                    <h2>Working in a team with Prof. Alexandre Bayen on a Capstone Project</h2>
+                    <h4><i>Applying Deep Multi-Agent Reinforcement Learning on Mixed Autonomy Traffic</i></h4>
+                    <p>August 2018 - May 2019</p>
+                </header>
+                At the Mobile Sensing Lab, I worked on an autonomous traffic Capstone team project with Prof. Alexandre
+                Bayen titled 'Applying Deep Multi-Agent Reinforcement Learning on Mixed-Autonomy Traffic.'
 
-                    <header>
-                        <img class="image centered web" style="max-width:200px" src="images/drinks_tracker.png" alt="Drinks Tracker">
-                        <h2>Drinks Tracker</h2>
-                        <h4>iOS App</h4>
-                        <p>May 2017 - 2018</p>
-                    </header>
-                    <header>
-                        <h2>Machine Learning by Stanford University - Coursera</h2>
-                        <h4>Taught by Andrew Ng, Co-founder, Coursera and Adjunct Professor, Stanford University</h4>
-                        <p>Spring 2017</p>
-                    </header>
-                    <header>
-                        <h2>Data mined a large collection of Reuters articles in Python</h2>
-                        <p>Spring 2016, The Ohio State University</p>
-                    </header>
-                    Learned and performed textual analysis to summarize the articles
-                    Used Beautiful Soup 4 and scikit-learn to implement several clustering and classification algorithms such as DBSCAN, Hierarchical Clustering, Naïve-Bayesian, and K-Nearest Neighbors
-                    Calculated Jaccard Similarity scores and Mean Squared Error to accurately create association rules
+                My team's goal was to optimize the behavior of autonomous vehicles to improve a city-scale scenario.
 
-                    <header>
-                        <h2>Voice Analytics Capstone project</h2>
-                        <h4>for PureCloud by Interactive Intelligence</h4>
-                        <p>Spring 2016, The Ohio State University</p>
-                    </header>
-                    Performed tokenization using IBM BlueMix after using Google Cloud Speech for voice recognition
-                    Analyzed the speech input to automatically create meetings in Google Calendar
-                    Worked with the IBM BlueMix, Google Cloud Speech, and Google Calendar APIs along with AWS
+                For this project, we made use of reinforcement learning techniques while improving an open-source
+                framework for mixed-autonomy traffic called Flow that works with SUMO (Simulation of Urban Mobility) and
+                RLlib (Reinforcement Learning Library).
 
-                    <header>
-                        <h2>Several Android apps</h2>
-                        <h4>Worked with Twitter, Google Calendar, and Google SafeSearch APIs</h4>
-                        <p>2015 - 2016, The Ohio State University</p>
-                    </header>
-                    <header>
-                        <img class="image centered web" src="images/qualcomm_hackathon.jpg" alt="'Best Lifesaving Hack’'">
-                        <h2>Won ‘Best Lifesaving Hack’ at Qualcomm’s intern hackathon</h2>
-                        <h4>Created an Android app to visualize sound to assist the hearing impaired using Vuforia for Augmented
-                            Reality
-                        </h4>
-                        <p>Summer 2015, Qualcomm</p>
-                    </header>
-                    <header>
-                        <img class="image centered web" src="images/isaosu.jpg" alt="isaosu.com">
-                        <h2>Indian Students Association</h2>
-                        <h3 style="text-transform:uppercase">Chief of Staff and Webmaster</h3>
-                        <p>2013 - 2016, The Ohio State University</p>
-                    </header>
-                    <header>
-                        <img class="image centered web" src="images/uncakd.jpg" alt="uncakd.org">
-                        <h2>Aaj Ka Dhamaka</h2>
-                        <h3 style="text-transform:uppercase">Webmaster</h3>
-                        <p>Fall 2013, University of North Carolina</p>
-                    </header>
-                    <header>
-                        <h2>Advanced Energy Vehicle project</h2>
-                        <h4>Model Monorail</h4>
-                        <p>Spring 2013, The Ohio State University</p>
-                    </header>
-                </article>
+                <header>
+                    <img class="image centered web" style="max-width:200px" src="images/drinks_tracker.png"
+                        alt="Drinks Tracker">
+                    <h2>Drinks Tracker</h2>
+                    <h4>iOS App</h4>
+                    <p>May 2017 - 2018</p>
+                </header>
+                <header>
+                    <h2>Machine Learning by Stanford University - Coursera</h2>
+                    <h4>Taught by Andrew Ng, Co-founder, Coursera and Adjunct Professor, Stanford University</h4>
+                    <p>Spring 2017</p>
+                </header>
+                <header>
+                    <h2>Data mined a large collection of Reuters articles in Python</h2>
+                    <p>Spring 2016, The Ohio State University</p>
+                </header>
+                Learned and performed textual analysis to summarize the articles
+                Used Beautiful Soup 4 and scikit-learn to implement several clustering and classification algorithms
+                such as DBSCAN, Hierarchical Clustering, Naïve-Bayesian, and K-Nearest Neighbors
+                Calculated Jaccard Similarity scores and Mean Squared Error to accurately create association rules
+
+                <header>
+                    <h2>Voice Analytics Capstone project</h2>
+                    <h4>for PureCloud by Interactive Intelligence</h4>
+                    <p>Spring 2016, The Ohio State University</p>
+                </header>
+                Performed tokenization using IBM BlueMix after using Google Cloud Speech for voice recognition
+                Analyzed the speech input to automatically create meetings in Google Calendar
+                Worked with the IBM BlueMix, Google Cloud Speech, and Google Calendar APIs along with AWS
+
+                <header>
+                    <h2>Several Android apps</h2>
+                    <h4>Worked with Twitter, Google Calendar, and Google SafeSearch APIs</h4>
+                    <p>2015 - 2016, The Ohio State University</p>
+                </header>
+                <header>
+                    <img class="image centered web" src="images/qualcomm_hackathon.jpg" alt="'Best Lifesaving Hack’'">
+                    <h2>Won ‘Best Lifesaving Hack’ at Qualcomm’s intern hackathon</h2>
+                    <h4>Created an Android app to visualize sound to assist the hearing impaired using Vuforia for
+                        Augmented
+                        Reality
+                    </h4>
+                    <p>Summer 2015, Qualcomm</p>
+                </header>
+                <header>
+                    <img class="image centered web" src="images/isaosu.jpg" alt="isaosu.com">
+                    <h2>Indian Students Association</h2>
+                    <h3 style="text-transform:uppercase">Chief of Staff and Webmaster</h3>
+                    <p>2013 - 2016, The Ohio State University</p>
+                </header>
+                <header>
+                    <img class="image centered web" src="images/uncakd.jpg" alt="uncakd.org">
+                    <h2>Aaj Ka Dhamaka</h2>
+                    <h3 style="text-transform:uppercase">Webmaster</h3>
+                    <p>Fall 2013, University of North Carolina</p>
+                </header>
+                <header>
+                    <h2>Advanced Energy Vehicle project</h2>
+                    <h4>Model Monorail</h4>
+                    <p>Spring 2013, The Ohio State University</p>
+                </header>
+            </article>
 
             <!-- Work -->
             <article id="work" class="panel">
+                <header>
+                    <h2>LookDeep Health</h2>
+                    <h3 style="text-transform:uppercase">Machine Learning Intern</h3>
+                    <p>June - August 2019, Oakland, CA</p>
+                </header>
+                During this summer internship at this early-stage startup, I developed classification models using
+                computer vision techniques in TensorFlow 2.
+                <br />
+                I also used transfer learning using popular architectures such as Inception and ResNet and created the
+                entire training pipeline for my models while learning to use an open-source model versioning system
+                called DVC. I assisted another intern in developing the entire system from reading images off the
+                camera, serving predictions using TensorFlow Server, and displaying the output to the user in the
+                browser.
+                <br />
+                Due to the limited availability of data specific to our domain, I also worked on collecting raw data to
+                use for modeling. During this process, I created a simple video annotation tool and used a popular
+                open-source annotation tool called Scalabel (developed at UC Berkeley). To produce more training data, I
+                also learned to use Blender and created synthetic images that could be used directly in training my
+                models.
+
                 <header>
                     <h2>Online Computer Library Center (OCLC)</h2>
                     <h3 style="text-transform:uppercase">Software Developer</h3>
                     <p>July 2016 - 2018, Columbus, OH</p>
                 </header>
-                Improved and innovated on several Java projects used internally and externally for purposes ranging from data retrieval,
+                Improved and innovated on several Java projects used internally and externally for purposes ranging from
+                data retrieval,
                 transformation, and organization to security
                 <br />Supported a multi-million dollar international contract by writing utilities that enabled our team
                 to internationalize a webapp in 20+ languages
-                <br />Optimized database handling and functionality for compliance with privacy requirements while updating
-                legacy projects to modern technologies such as Spring and SQL
-                <br />Achieved our corporate strategy goals by enhancing OAuth authentication services used by OCLC’s enterprise
+                <br />Optimized database handling and functionality for compliance with privacy requirements while
+                updating legacy projects to modern technologies such as Spring and SQL
+                <br />Achieved our corporate strategy goals by enhancing OAuth authentication services used by OCLC’s
+                enterprise
                 business partners to offer better support of mobile application authentication
                 <br />Worked with the Operations team to deploy our webapps successfully in the Production environment
 
@@ -237,7 +283,8 @@
                 </header>
                 Overhauled an internal web-app that is used to manage a consumer-facing website
                 <br /> Resolved and implemented requested user stories to increase operational productivity
-                <br /> Made extensive use of ASP.NET, SQL, HTML5, and JavaScript while collaborating with other team members
+                <br /> Made extensive use of ASP.NET, SQL, HTML5, and JavaScript while collaborating with other team
+                members
                 using Team Foundation Server in Visual Studio
 
                 <header>
@@ -263,12 +310,15 @@
 
             <!-- App -->
             <article id="app" class="panel">
-                <a target="_blank" href="https://itunes.apple.com/app/apple-store/id1232956137?pt=118652912&ct=website&mt=8">
+                <a target="_blank"
+                    href="https://itunes.apple.com/app/apple-store/id1232956137?pt=118652912&ct=website&mt=8">
                     <header>
-                        <img class="image centered web" style="max-width:200px" src="images/drinks_tracker.png" alt="Drinks Tracker">
+                        <img class="image centered web" style="max-width:200px" src="images/drinks_tracker.png"
+                            alt="Drinks Tracker">
                         <h2>Drinks Tracker</h2>
                     </header>
-                    <p>Drinks Tracker allows you to search a list of nearly 4,000 drinks and easily add drinks to track your
+                    <p>Drinks Tracker allows you to search a list of nearly 4,000 drinks and easily add drinks to track
+                        your
                         Blood Alcohol Content (BAC) percentage.</p>
                     <h3>Installed by 3.9k users with 104k impressions</h3>
                     <h5 style="color:grey">Not currently available</h5>
@@ -288,10 +338,12 @@
                     <h4>Features</h4>
                     <ul>
                         <li>Search and easily add drinks. Favorite your frequent drinks for easy access!</li>
-                        <li>Track your BAC using the Today View widget and the Apple Watch app. Complications and Dynamic
+                        <li>Track your BAC using the Today View widget and the Apple Watch app. Complications and
+                            Dynamic
                             Notifications are coming soon!</li>
                         <li>Easily add custom drinks and favorite them in a few taps.</li>
-                        <li>Get notifications when your BAC is at 0.08% and 0% and a reminder to add your next drink.</li>
+                        <li>Get notifications when your BAC is at 0.08% and 0% and a reminder to add your next drink.
+                        </li>
                         <li>Customize your profile to get an estimated BAC tailored to you!</li>
                         <li>3D Touch the app icon to quickly add a drink and to see your BAC in the widget.</li>
                         <li>Suggest drinks so that they can be added to the list!</li>
@@ -305,7 +357,8 @@
                     <header>
                         <h2>Contact me</h2>
                     </header>
-                    <p>I am interested in Machine Learning internships for Summer 2019 before I graduate from University of California, Berkeley in December 2019.</p>
+                    <p>I am interested in Machine Learning internships for Summer 2019 before I graduate from University
+                        of California, Berkeley in December 2019.</p>
                 </a>
             </article>
         </div>
